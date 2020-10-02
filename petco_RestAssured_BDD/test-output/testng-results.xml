@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-02T14:38:43 EDT" name="Default suite" finished-at="2020-10-02T14:38:46 EDT" duration-ms="3193">
+  <suite started-at="2020-10-02T16:33:00 EDT" name="Default suite" finished-at="2020-10-02T16:33:03 EDT" duration-ms="2895">
     <groups>
     </groups>
-    <test started-at="2020-10-02T14:38:43 EDT" name="Default test" finished-at="2020-10-02T14:38:46 EDT" duration-ms="3193">
-      <class name="petco_RestAssured_BDD.PUT_Request">
-        <test-method is-config="true" signature="postdata()[pri:0, instance:petco_RestAssured_BDD.PUT_Request@5ab9e72c]" started-at="2020-10-02T14:38:43 EDT" name="postdata" finished-at="2020-10-02T14:38:44 EDT" duration-ms="754" status="PASS">
+    <test started-at="2020-10-02T16:33:00 EDT" name="Default test" finished-at="2020-10-02T16:33:03 EDT" duration-ms="2895">
+      <class name="petco_RestAssured_BDD.POST_Request">
+        <test-method is-config="true" signature="postdata()[pri:0, instance:petco_RestAssured_BDD.POST_Request@5ab9e72c]" started-at="2020-10-02T16:33:00 EDT" name="postdata" finished-at="2020-10-02T16:33:01 EDT" duration-ms="721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postdata -->
-        <test-method signature="testPost()[pri:0, instance:petco_RestAssured_BDD.PUT_Request@5ab9e72c]" started-at="2020-10-02T14:38:44 EDT" name="testPost" finished-at="2020-10-02T14:38:46 EDT" duration-ms="2401" status="PASS">
+        <test-method signature="testPost()[pri:0, instance:petco_RestAssured_BDD.POST_Request@5ab9e72c]" started-at="2020-10-02T16:33:01 EDT" name="testPost" finished-at="2020-10-02T16:33:03 EDT" duration-ms="2103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->
-      </class> <!-- petco_RestAssured_BDD.PUT_Request -->
+      </class> <!-- petco_RestAssured_BDD.POST_Request -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
