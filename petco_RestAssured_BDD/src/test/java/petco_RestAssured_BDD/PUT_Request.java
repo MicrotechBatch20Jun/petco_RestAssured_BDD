@@ -23,21 +23,21 @@ public static HashMap data = new HashMap();
 		data.put("phone", "9175004455");
 		data.put("userStatus", 0);
 		
-		RestAssured.baseURI= "https://petstore.swagger.io/v2";
-		RestAssured.basePath = "/user/jdoe";
+		RestAssured.baseURI= "https://petstore.swagger.io/v2";  // here we mention the base URI
+		RestAssured.basePath = "/user/jdoe";                                  // here we mention the query and/or path parameter
 	}
 	@Test
 	public void testPost() {
 		
 		given()
 			.header("Content-Type", "application/json")
-			.body(data)
+			.body(data)    // we call the hashMap data here    
 			
-		.when()
+		.when()             // we mention the form of request under "when()". in this case the request is "put"
 			.put()
 			
 		.then()
-			.assertThat()
+			.assertThat()   // all response assertions go under this (assertThat) method.
 				.statusCode(200)
 				.and()
 				.header("Content-Type", "application/json")
