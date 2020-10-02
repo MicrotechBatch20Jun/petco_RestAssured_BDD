@@ -27,7 +27,7 @@ public static HashMap data = new HashMap();
 		RestAssured.basePath = "/user/jdoe";                                  // here we mention the query and/or path parameter
 	}
 	@Test
-	public void testPost() {
+	public void testPut() {
 		
 		given()
 			.header("Content-Type", "application/json")
