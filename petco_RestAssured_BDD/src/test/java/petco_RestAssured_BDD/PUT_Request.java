@@ -13,7 +13,7 @@ public class PUT_Request {
 public static HashMap data = new HashMap();
 	
 	@BeforeClass
-	public void postdata() {
+	public void putdata() {
 		data.put("id", 600);
 		data.put("username", "jwatson");
 		data.put("firstName", "John");
